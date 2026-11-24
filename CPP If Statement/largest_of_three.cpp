@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a, b, c;
+    cout << "Enter three integers: ";
+    cin >> a >> b >> c;
+
+    if (a >= b) {
+        if (a >= c) {
+            cout << "Largest number is: " << a << endl;
+        } else {
+            cout << "Largest number is: " << c << endl;
+        }
+    } else {
+        if (b >= c) {
+            cout << "Largest number is: " << b << endl;
+        } else {
+            cout << "Largest number is: " << c << endl;
+        }
+    }
+
+    return 0;
+}
